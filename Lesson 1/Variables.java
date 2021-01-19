@@ -1,20 +1,20 @@
 public class Variables {
     public static void main(String[] args) {
-        short windows=10;
-        int bitrate=64;
-        char windowsdisk='C';
-        byte processorcores=12;
-        double freguency=3.7;
-        float ram=8.00f;
-        boolean systemstarted=true;
-        long directx=12;
+        short Windows = 10;
+        int BitRate = 64;
+        char WindowsDisk = 'C';
+        byte ProcessorCores = 12;
+        double Freguency = 3.7;
+        float Ram = 8.00f;
+        boolean SystemStarted = true;
+        long DirectX = 12;
 
-        System.out.println("Windows " + windows + " " + bitrate + " bit");
-        System.out.println("Windows Disk " + windowsdisk);
-        System.out.println("Processor A10-7850K cores " + processorcores);
-        System.out.println("Processor freguency " + freguency);
-        System.out.println("Ram GB " + ram);
-        System.out.println("DirectX Version " + directx);
-        System.out.println("System Started " + systemstarted);
+            System.out.println("Windows " + Windows + " " + BitRate + " bit");
+            System.out.println("Windows Disk " + WindowsDisk);
+            System.out.println("Processor A10-7850K cores " + ProcessorCores);
+            System.out.println("Processor freguency " + Freguency);
+            System.out.println("Ram GB " + Ram);
+            System.out.println("DirectX Version " + DirectX);
+            System.out.println("System Started " + SystemStarted);
     }
 }
