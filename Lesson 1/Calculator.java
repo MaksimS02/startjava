@@ -3,20 +3,16 @@ public class Calculator {
         int num1 = 15;
         int num2 = 9;
         long result = 0;
-        char operation = '^';
+        char operation = '-';
 
         if (operation == '+') {
             result = num1 + num2;
-            System.out.println("Your result =" + result);
         } else if (operation == '-') {
             result = num1 - num2;
-            System.out.println("Your result =" + result);
         } else if (operation == '*') {
             result = num1 * num2;
-            System.out.println("Your result =" + result);
         } else if (operation == '/') {
             result = num1 / num2;
-            System.out.println("Your result =" + result);
         } else if (operation == '^') {
             result = num1;
             for(int i = 1; i < num2; i++) {
