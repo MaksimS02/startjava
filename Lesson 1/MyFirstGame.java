@@ -1,17 +1,17 @@
 public class MyFirstGame {
     public static void main(String[] args) {
-        int UserNumber = 40;
-        int b = 90;
+        int usernumber = 40;
+        int guessnumber = 90;
         System.out.println("Guess a Number from 0 to 100");
-        while (b !=UserNumber) {
-            if (b > UserNumber) {
-                System.out.println(UserNumber + " My Number is higher");
-                UserNumber++;
-            } else if (b < UserNumber) {
-                System.out.println(UserNumber + " My Number is lower");
-                UserNumber--;
+        while (guessnumber != usernumber) {
+            if (guessnumber > usernumber) {
+                System.out.println(usernumber + " My Number is higher");
+                usernumber++;
+            } else if (guessnumber < usernumber) {
+                System.out.println(usernumber + " My Number is lower");
+                usernumber--;
             }
         }
-        System.out.println(UserNumber + " You Guess");
+        System.out.println(usernumber + " You Guess");
     }
 }
