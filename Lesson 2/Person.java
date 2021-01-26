@@ -18,11 +18,12 @@ public class Person {
         System.out.println("Jim run 20 steps");
     }
 
-     boolean talk() {
+    boolean talk() {
         System.out.println("Jim talk");
         return true;
 
     }
+    
     String learnJava() {
         System.out.println("Jim learn Java");
         return "yes";
