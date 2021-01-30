@@ -6,6 +6,16 @@ public class WolfTest {
         System.out.println("color = " + wolfOne.color);
         System.out.println("weight = " + wolfOne.weight);
         System.out.println("age = " + wolfOne.age);
+        wolfOne.nickName = "Silver";
+        wolfOne.sex = "alien";
+        wolfOne.color = "red";
+        wolfOne.weight = - 500;
+        wolfOne.age = 1530;
+        System.out.println("nickName = " + wolfOne.nickName);
+        System.out.println("sex = " + wolfOne.sex);
+        System.out.println("color = " + wolfOne.color);
+        System.out.println("weight = " + wolfOne.weight);
+        System.out.println("age = " + wolfOne.age);
         wolfOne.go();
         wolfOne.sit();
         wolfOne.run();
